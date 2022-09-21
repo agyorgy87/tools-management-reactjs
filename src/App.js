@@ -1,23 +1,22 @@
-import logo from './logo.svg';
 import './App.css';
+import React, {useState} from 'react';
+import MainTitle from './components/MainTitle';
+import Buttons from './components/Buttons';
+import Search from './components/Search';
+import Table from './components/Table';
+import data from './tools.json';
 
 function App() {
+  
+  const [toolShopData, setToolShopData] = useState([...data]); 
+  let editData = (e) => setToolShopData(e); 
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+     <MainTitle data={toolShopData} setData={editData} /> 
+     <Search data={toolShopData} setData={editData}/>
+     <Buttons data={toolShopData} setData={editData}/> 
+     <Table data={toolShopData} />
     </div>
   );
 }
