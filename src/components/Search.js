@@ -1,4 +1,4 @@
-import './Search.css';
+import '../css/Search.css';
 import React, {useRef,useEffect,useState} from 'react';
 
 export default function Search (props) {
@@ -24,25 +24,25 @@ export default function Search (props) {
         
     }   
 
-    return (
+    return (  
         <div>
-                <label htmlFor="searchIt" className="searchFor">search it:</label>
-            <div className="mainSearch">
-                <input 
-                placeholder='for example "hammer" '
-                className="SearchInput" 
-                id="searchIt" 
-                name="searchIt" 
-                ref={searchBar}
-                onChange={event => setInputValue(event.target.value)}
-                />
-                <button 
-                className="searchButton"
-                type="button"
-                onClick={() => SearchButton(props)}
-                >Search
-                </button>
-            </div>
+            <label htmlFor="searchit" className="search-for-label">search for:</label>
+                <div className="input-button-container">
+                    <input 
+                    placeholder='for example "hammer" '
+                    className="search-input" 
+                    id="searchit" 
+                    name="searchit" 
+                    ref={searchBar}
+                    onChange={event => setInputValue(event.target.value)}
+                    />
+                    <button 
+                    className="search-button"
+                    type="button"
+                    onClick={() => SearchButton(props)}
+                    >Search
+                    </button>
+                </div>
         </div>
     )
 }

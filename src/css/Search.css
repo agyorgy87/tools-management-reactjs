@@ -1,17 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Jura&display=swap');
 
-.searchFor {
+.search-for-label {
     margin-top: 20px;
     display:flex;
     color: white;
     font-family: 'Jura', sans-serif;
 }
 
-.mainSearch {
+.input-button-container {
     display: flex;
 }
 
-.SearchInput {
+.search-input {
     height: 50px;
     width: 80%;
     border: none;
@@ -21,7 +21,7 @@
     font-family: 'Jura', sans-serif;
 }
 
-.searchButton {
+.search-button {
     width: 20%;
     margin-left: 20px;
     border: 2px solid white;
@@ -33,6 +33,6 @@
     font-family: 'Jura', sans-serif;
 }
 
-.searchButton:hover {
+.search-button:hover {
     color: #fe8e22; 
 }

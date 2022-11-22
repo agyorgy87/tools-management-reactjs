@@ -1,5 +1,5 @@
 import React, {useState} from 'react';
-import './Buttons.css';
+import '../css/Buttons.css';
 
 export default function Buttons (props) {
 
@@ -44,14 +44,13 @@ export default function Buttons (props) {
     return(
         <div>
             <header>
-                <h3 className="Filter">Filter</h3>
-                
+                <h3 className="filter-text">Filter</h3>               
             </header>
-            <main className="MainButtons">
-                <button onClick={() => AllTools(props)} className="ButtonSet">ALL TOOLS</button>
-                <button onClick={() => Available(props)} className="ButtonSet">CURRENTLY IN STOCK</button>
-                <button onClick={() => Cheapest(props)} className="ButtonSet">CHEAPEST</button>
-                <button onClick={() => MostExpensive(props)} className="ButtonSet">MOST EXPENSIVE</button>  
+            <main className="filter-buttons-container">
+                <button onClick={() => AllTools(props)} className="filter-buttons">ALL TOOLS</button>
+                <button onClick={() => Available(props)} className="filter-buttons">CURRENTLY IN STOCK</button>
+                <button onClick={() => Cheapest(props)} className="filter-buttons">CHEAPEST</button>
+                <button onClick={() => MostExpensive(props)} className="filter-buttons">MOST EXPENSIVE</button>  
             </main>
         </div>
     )

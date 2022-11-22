@@ -1,4 +1,4 @@
-import './App.css';
+import './css/App.css';
 import React, {useState} from 'react';
 import MainTitle from './components/MainTitle';
 import Buttons from './components/Buttons';
@@ -12,7 +12,7 @@ function App() {
   let editData = (e) => setToolShopData(e); 
 
   return (
-    <div className="App">
+    <div className="app">
      <MainTitle data={toolShopData} setData={editData} /> 
      <Search data={toolShopData} setData={editData}/>
      <Buttons data={toolShopData} setData={editData}/> 

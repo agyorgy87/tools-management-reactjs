@@ -1,5 +1,5 @@
 import React, {useState} from 'react';
-import './MainTitle.css';
+import '../css/MainTitle.css';
 
 export default function MainTitle(props) {
 
@@ -13,7 +13,7 @@ export default function MainTitle(props) {
 
     return (
         <div>
-            <button onClick={() => backToMain(props)}  className="mainTitle">Tool Shop</button>
+            <button onClick={() => backToMain(props)}  className="main-title">Tool Shop</button>
         </div>
     )
 }

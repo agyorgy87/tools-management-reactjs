@@ -1,10 +1,10 @@
-import './Table.css';
+import '../css/Table.css';
 import React from 'react';
 
 export default function Table (props) {
     
     return (
-        <div className="theTable">
+        <div className="table-container"> 
             <table>
                 <thead>
                     <tr className="mainBoardTitle">

@@ -1,19 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Jura&display=swap');
 
-.Filter {
+.filter-text{ 
     text-align: left;
     color:#fe8e22;
     font-family: 'Jura', sans-serif;
     font-size: 30px;
 }
 
-.MainButtons {
+.filter-buttons-container {
     margin-top: 20px;
     display: flex;
     justify-content: space-around;
 }
 
-.ButtonSet {
+.filter-buttons {
     height: 30px;
     border: 1px solid white;
     border-radius: 5px;
@@ -22,6 +22,6 @@
     font-family: 'Jura', sans-serif;
 }
 
-.ButtonSet:hover {
+.filter-buttons:hover {
     color: #fe8e22;
 }
