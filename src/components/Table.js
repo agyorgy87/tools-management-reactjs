@@ -16,8 +16,8 @@ export default function Table (props) {
                 </thead>
                 <tbody>
                     {
-                        props.data.map(row => (
-                            <tr>
+                        props.data.map((row, index) => (
+                            <tr key={"tools" + index}>
                                 <td>{row.Name}</td>
                                 <td>{row.Description}</td>
                                 <td>{row.Quantity}</td>

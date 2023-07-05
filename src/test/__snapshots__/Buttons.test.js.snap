@@ -1,0 +1,41 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`test Buttons 1`] = `
+<div>
+  <header>
+    <h3
+      className="filter-text"
+    >
+      Filter
+    </h3>
+  </header>
+  <main
+    className="filter-buttons-container"
+  >
+    <button
+      className="filter-buttons"
+      onClick={[Function]}
+    >
+      ALL TOOLS
+    </button>
+    <button
+      className="filter-buttons"
+      onClick={[Function]}
+    >
+      CURRENTLY IN STOCK
+    </button>
+    <button
+      className="filter-buttons"
+      onClick={[Function]}
+    >
+      CHEAPEST
+    </button>
+    <button
+      className="filter-buttons"
+      onClick={[Function]}
+    >
+      MOST EXPENSIVE
+    </button>
+  </main>
+</div>
+`;

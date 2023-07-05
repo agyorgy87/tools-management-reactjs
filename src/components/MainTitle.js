@@ -10,7 +10,7 @@ export default function MainTitle(props) {
         const backToAllData = allData
         props.setData(backToAllData);
     }
-
+ 
     return (
         <div>
             <button onClick={() => backToMain(props)}  className="main-title">Tool Shop</button>

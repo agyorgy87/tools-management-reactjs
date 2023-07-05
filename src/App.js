@@ -13,7 +13,7 @@ function App() {
 
   return (
     <div className="app">
-     <MainTitle data={toolShopData} setData={editData} /> 
+     <MainTitle data={toolShopData} setData={editData} />  
      <Search data={toolShopData} setData={editData}/>
      <Buttons data={toolShopData} setData={editData}/> 
      <Table data={toolShopData} />

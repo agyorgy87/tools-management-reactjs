@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`test MainTitle 1`] = `
+<div>
+  <button
+    className="main-title"
+    onClick={[Function]}
+  >
+    Tool Shop
+  </button>
+</div>
+`;

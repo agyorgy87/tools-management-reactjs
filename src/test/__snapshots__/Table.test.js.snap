@@ -1,0 +1,88 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`test empty array 1`] = `
+<div
+  className="table-container"
+>
+  <table>
+    <thead>
+      <tr
+        className="mainBoardTitle"
+      >
+        <th
+          id="name"
+        >
+          Name
+        </th>
+        <th
+          id="description"
+        >
+          Explanation
+        </th>
+        <th
+          id="quantity"
+        >
+          Stock Of Store
+        </th>
+        <th
+          id="price"
+        >
+          Price
+        </th>
+      </tr>
+    </thead>
+    <tbody />
+  </table>
+</div>
+`;
+
+exports[`test with data 1`] = `
+<div
+  className="table-container"
+>
+  <table>
+    <thead>
+      <tr
+        className="mainBoardTitle"
+      >
+        <th
+          id="name"
+        >
+          Name
+        </th>
+        <th
+          id="description"
+        >
+          Explanation
+        </th>
+        <th
+          id="quantity"
+        >
+          Stock Of Store
+        </th>
+        <th
+          id="price"
+        >
+          Price
+        </th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>
+          Feri
+        </td>
+        <td>
+          well done
+        </td>
+        <td>
+          1
+        </td>
+        <td>
+          1000
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+`;

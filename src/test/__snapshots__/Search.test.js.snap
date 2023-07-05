@@ -1,0 +1,30 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`test Search 1`] = `
+<div>
+  <label
+    className="search-for-label"
+    htmlFor="searchit"
+  >
+    search for:
+  </label>
+  <div
+    className="input-button-container"
+  >
+    <input
+      className="search-input"
+      id="searchit"
+      name="searchit"
+      onChange={[Function]}
+      placeholder="for example \\"hammer\\" "
+    />
+    <button
+      className="search-button"
+      onClick={[Function]}
+      type="button"
+    >
+      Search
+    </button>
+  </div>
+</div>
+`;
